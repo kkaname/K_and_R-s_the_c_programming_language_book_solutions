@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /* Exercise 1-2: Experiment to find out what happens when printf's argument string contains \c, 
  * whre c is some character not listed in the escape sequence. */
