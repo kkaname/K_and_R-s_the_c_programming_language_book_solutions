@@ -4,7 +4,7 @@
  * where c is some character not listed as part of the escape sequence. */
 
 int main(void) {
-    printf("hello, world\c");   /*prints warning: unknown escape sequence '\c' */
+    printf("hello, world\c");   /*prints-> warning: unknown escape sequence '\c' */
 
     return 0;
 }
