@@ -22,7 +22,7 @@ int main(void) {
     }
 
     /*Alternate way to do is by using for loop:
-     * >for(celcius = upper; celcius >= lower; celcius -= step) {
+     * >for(celcius = 300; celcius >= 0; celcius -= 20) {
      * >    fahr = (9.0 / 5.0) * celcius - 32.0f;
      * >    printf("%3.0f\t\t%6.2f\n", celcius, fahr);
      * >}
