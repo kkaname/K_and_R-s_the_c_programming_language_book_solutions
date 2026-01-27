@@ -12,7 +12,7 @@ int main(void) {
 
     while ((c = getchar()) != EOF) {
         if (c == ' ' || c == '\t' || c == '\n') {
-            if (state = IN) {
+            if (state == IN) {
                 putchar('\n');
             }
         }
