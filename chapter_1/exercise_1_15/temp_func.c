@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/* Exercise 1.15: Write a program, that to rewrite the temerature conversion program which is written earlier inside main() function, but now using a dedicated function printing the tempurature conversion. */
+/* Exercise 1.15: Write a program, that to rewrite the temerature conversion program
+ * which is written earlier inside main() function, but now using a dedicated function
+ * printing the tempurature conversion. */
 
 void fahr_to_celcius(float fahr) {
     float celcius;
