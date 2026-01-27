@@ -20,7 +20,7 @@ int main(void) {
         }
     }
 
-    printf("Number of words: %d\n", word_count);
+    printf("\nNumber of words: %d\n", word_count);
 
     return 0;
 }
