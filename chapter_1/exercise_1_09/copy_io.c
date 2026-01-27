@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Exercise 1.09: Write a program to copy its input to its output, 
+/* Exercise 1.09: Write a program to copy its input to its output,
  * replacing each string of one or more blanks by a single blank. */
 
 int main(void) {
@@ -11,7 +11,7 @@ int main(void) {
         if(c != ' ' || last_c != ' ') {
             putchar(c);
         }
-        
+
         last_c = c;    //stores the character for comparision with the next character.
     }
 
