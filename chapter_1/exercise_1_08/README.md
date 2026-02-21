@@ -1,6 +1,6 @@
 # Exercise 1-8: Count Blanks, Tabs, and Newlines
 
-**Source:** *The C Programming Language* (K&R), Chapter 1
+Solution to Exercise 1-11 from *The C Programming Language* (K&R).
 
 ## Problem
 
