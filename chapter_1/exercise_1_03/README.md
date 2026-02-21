@@ -29,6 +29,6 @@ Fahrenheit	Celsius
 ## Build & Run
 
 ```sh
-gcc -o fahrenheit_celcius fahrenheit_celcius.c
-./fahrenheit_celcius
+gcc -o fahrenheit_celsius fahrenheit_celcius.c
+./fahrenheit_celsius
 ```
