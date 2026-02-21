@@ -1,10 +1,7 @@
 #include <stdio.h>
 
-/* Exercise 1-5: Modify the temperature conversion program to print the table in reverse order,
- * that is from 300 degrees to 0. */
-
 int main(void) {
-    float fahr, celcius;
+    float fahr, celsius;
     int lower, upper, step;
 
     lower = 0;
@@ -14,17 +11,17 @@ int main(void) {
     printf("Celsius\t\tFahrenheit\n");
     printf("--------------------------\n");
 
-    celcius = upper;
-    while(celcius >= lower) {
-        fahr = (9.0 / 5.0) * celcius - 32.0f;
-        printf("%3.0f\t\t%6.2f\n", celcius, fahr);
-        celcius -= step;
+    celsius = upper;
+    while(celsius >= lower) {
+        fahr = (9.0 / 5.0) * celsius + 32.0;
+        printf("%3.0f\t\t%6.2f\n", celsius, fahr);
+        celsius -= step;
     }
 
     /*Alternate way to do is by using for loop:
-     * >for(celcius = 300; celcius >= 0; celcius -= 20) {
-     * >    fahr = (9.0 / 5.0) * celcius - 32.0f;
-     * >    printf("%3.0f\t\t%6.2f\n", celcius, fahr);
+     * >for(celsius = 300; celsius >= 0; celsius -= 20) {
+     * >    fahr = (9.0 / 5.0) * celsius - 32.0f;
+     * >    printf("%3.0f\t\t%6.2f\n", celsius, fahr);
      * >}
      */
 
