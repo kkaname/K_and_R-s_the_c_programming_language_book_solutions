@@ -2,6 +2,8 @@
 
 Solution to Exercise 1-4 from *The C Programming Language* (K&R).
 
+**Question:** Write a program to print the corresponding Celsius to Fahrenheit table. 
+
 The exercise asks to write a program that prints a Celsius-to-Fahrenheit conversion table (the reverse of the earlier Fahrenheit-to-Celsius program).
 
 ## How It Works
