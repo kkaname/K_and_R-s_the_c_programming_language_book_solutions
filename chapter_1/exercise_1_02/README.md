@@ -2,6 +2,8 @@
 
 Solution to Exercise 1-2 from *The C Programming Language* (K&R).
 
+**Question:** Experiment to find out what happens when prints's argument string contains \c, where c is some character not listed above. 
+
 The exercise asks what happens when `printf`'s argument string contains `\c`, where `c` is a character that is **not** a recognized escape sequence (e.g. `\n`, `\t`, `\\`).
 
 The program uses `\c` inside a `printf` call. When compiled, GCC emits a warning:
