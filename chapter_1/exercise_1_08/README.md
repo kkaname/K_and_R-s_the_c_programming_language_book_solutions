@@ -2,21 +2,18 @@
 
 Solution to Exercise 1-11 from *The C Programming Language* (K&R).
 
-## Problem
+**Question:** Write a program to count blanks, tabs, and newlines.
 
 Write a program to count blanks, tabs, and newlines from standard input.
 
-## Usage
+## How It Works
 
-### Compile
+The program reads characters one at a time from standard input using `getchar()`. Each character is checked against blank (` `), tab (`\t`), and newline (`\n`), incrementing the respective counter. When EOF is reached, the totals are printed.
+
+## Build and Run
 
 ```sh
 gcc -o count_b_t_n count_b_t_n.c
-```
-
-### Run
-
-```sh
 ./count_b_t_n
 ```
 
@@ -35,7 +32,3 @@ number of blanks: 2
 number of tabs: 1
 number of newlines: 2
 ```
-
-## How It Works
-
-The program reads characters one at a time from standard input using `getchar()`. Each character is checked against blank (` `), tab (`\t`), and newline (`\n`), incrementing the respective counter. When EOF is reached, the totals are printed.
