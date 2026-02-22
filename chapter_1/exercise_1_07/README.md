@@ -2,6 +2,8 @@
 
 Solution to Exercise 1-7 from *The C Programming Language* (K&R).
 
+**Question:** Write a program to print the value of EOF. 
+
 The exercise asks to write a program that prints the value of `EOF`.
 
 ## How It Works
