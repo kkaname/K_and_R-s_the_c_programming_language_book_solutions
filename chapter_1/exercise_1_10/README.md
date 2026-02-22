@@ -2,7 +2,7 @@
 
 Solution to Exercise 1-10 from *The C Programming Language* (K&R).
 
-## Description
+**Question:** Write a program to copy its input to its output, replacing each tab by \t, each backspace by \b, and each backslash by \\. This makes tabs and backspaces visible in an unambiguous way. 
 
 It copies its input to its output while making certain characters visible:
 
@@ -30,6 +30,6 @@ Hello\tWorld\\
 ## Build & Run
 
 ```sh
-gcc -o copy_io_replace_esc_char copy_io_replace_esc_char.c
+gcc -o copy_io_replace_esc_char copy_io_replace_esc_charV.c
 ./copy_io_replace_esc_char
 ```
