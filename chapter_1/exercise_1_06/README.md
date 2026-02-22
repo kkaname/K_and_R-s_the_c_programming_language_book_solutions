@@ -2,6 +2,8 @@
 
 Solution to Exercise 1-6 from *The C Programming Language* (K&R).
 
+**Question:** Verify that the expression getchar() != EOF is 0 or 1.
+
 The exercise asks to verify that the expression `getchar() != EOF` evaluates to `0` or `1`.
 
 ## How It Works
