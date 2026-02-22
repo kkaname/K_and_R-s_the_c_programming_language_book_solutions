@@ -2,9 +2,7 @@
 
 Solution to Exercise 1-8 from *The C Programming Language* (K&R).
 
-## Problem
-
-Write a program to copy its input to its output, replacing each string of one or more blanks with a single blank.
+**Question:** Write a program to copy its input to its output, replacing each string of one or more blanks by a single blank. 
 
 ## How It Works
 
