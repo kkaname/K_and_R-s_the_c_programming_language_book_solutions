@@ -2,7 +2,10 @@
 
 Solution to Exercise 1-3 from *The C Programming Language* (K&R).
 
-The exercise asks to modify the Fahrenheit-to-Celsius conversion program to print a heading above the table.
+**Question:** Experiment to find out what happens when prints's argument string contains \c, where c is some
+character not listed above. 
+
+The exercise asks to modify the Fahrenheit-to-Celsius conversion program given as a example program to print a heading above the table.
 
 ## How It Works
 
