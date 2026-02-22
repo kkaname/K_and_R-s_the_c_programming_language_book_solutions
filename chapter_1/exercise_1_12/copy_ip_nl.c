@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-/* Exercise 1.12: Write a program that prints its input one word per line. */
-
 #define IN 1
 #define OUT 0
 
@@ -14,6 +12,7 @@ int main(void) {
         if (c == ' ' || c == '\t' || c == '\n') {
             if (state == IN) {
                 putchar('\n');
+                state = OUT;
             }
         }
         else {
@@ -21,6 +20,9 @@ int main(void) {
             putchar(c);
         }
     }
+    if (state == IN) {
+        putchar('\n');
+    } // if there is a word that doesn't end with ' ', '\t'
 
     return 0;
 }
