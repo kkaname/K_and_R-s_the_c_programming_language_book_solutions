@@ -23,7 +23,7 @@ int main(void) {
     printf("Maximum value of short: %d\n", SHRT_MAX);
     printf("Maximum value of unsigned short: %u\n\n", USHRT_MAX);
 
-    //to display the ranges of INT
+    //to display the ranges of int
     printf("########## INT ##########\n");
     printf("Minimum value of int: %d\n", INT_MIN);
     printf("Maximum value of int: %d\n", INT_MAX);
