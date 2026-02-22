@@ -2,6 +2,8 @@
 
 Solution to Exercise 1-5 from *The C Programming Language* (K&R).
 
+**Question:** Modify the temperature conversion program to print the table in reverse order, that is, from 300 degrees to 0. 
+
 The exercise asks to modify the temperature conversion program to print the table in reverse order, from 300 degrees down to 0.
 
 ## How It Works
