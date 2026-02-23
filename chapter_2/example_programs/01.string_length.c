@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /*
- * Example program in the page 39
  * program that return the length of a string
  */
 
-//can't use strlen() cause its a standard function in string.h
+//can't use the name strlen() cause its a standard function name in string.h
 int str_len(char *s) {
     int i;
     i = 0;
