@@ -12,7 +12,7 @@ int main(void) {
     printf("-----------------------\n");
 
     fahr = lower;
-    while(fahr <= upper) {
+    while (fahr <= upper) {
         celsius = (5.0/9.0) * (fahr - 32);
         printf("%3.0f\t\t%6.2f\n", fahr, celsius);
         fahr += step;
@@ -20,7 +20,7 @@ int main(void) {
 
     /*
      * Alternate way is to use a for loop instead of while loop:
-     * >for(fahr = lower; fahr <= upper; fahr += step){
+     * >for (fahr = lower; fahr <= upper; fahr += step){
      * >   celsius = (5.0/9.0) * (fahr - 32);
      * >   printf("%3.0f\t\t%6.2f\n", fahr, celsius);
      * >}
