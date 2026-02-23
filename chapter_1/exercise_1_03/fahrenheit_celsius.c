@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-/* Exercise 1-3: Modify the temperature conversion program given in the book to print a heading above the table. */
-
 int main(void) {
     float fahr, celsius;
     int lower, upper, step;
