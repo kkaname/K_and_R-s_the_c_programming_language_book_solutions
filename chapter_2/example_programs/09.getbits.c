@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /*
- * Example program in the page 49
  * program that returns n bits field of x that begins at position p
  */
 
