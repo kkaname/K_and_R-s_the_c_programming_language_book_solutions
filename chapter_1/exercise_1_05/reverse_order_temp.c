@@ -12,14 +12,14 @@ int main(void) {
     printf("--------------------------\n");
 
     celsius = upper;
-    while(celsius >= lower) {
+    while (celsius >= lower) {
         fahr = (9.0 / 5.0) * celsius + 32.0;
         printf("%3.0f\t\t%6.2f\n", celsius, fahr);
         celsius -= step;
     }
 
     /*Alternate way to do is by using for loop:
-     * >for(celsius = 300; celsius >= 0; celsius -= 20) {
+     * >for (celsius = 300; celsius >= 0; celsius -= 20) {
      * >    fahr = (9.0 / 5.0) * celsius - 32.0f;
      * >    printf("%3.0f\t\t%6.2f\n", celsius, fahr);
      * >}
