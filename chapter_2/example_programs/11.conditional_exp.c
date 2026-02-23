@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /*
- * Example program in the page 51
  * program to find the maximum of two numbers using conditional expression
  */
 
