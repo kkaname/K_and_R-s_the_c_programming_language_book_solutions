@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /*
- * Example program in the page 52
  * program to print 10 array elements per line
  */
 
