@@ -5,21 +5,21 @@ int main(void) {
 
     num_blank = num_tab = num_newline = 0;
 
-    while((c = getchar()) != EOF) {
-        if(c == '\n') {
+    while ((c = getchar()) != EOF) {
+        if (c == '\n') {
             ++num_newline;
         }
-
-        if(c == '\t') {
+        else if (c == '\t') {
             ++num_tab;
         }
-
-        if(c == ' ') {
+        else if (c == ' ') {
             ++num_blank;
         }
     }
 
-    printf("\nnumber of blank lines:%d\nnumber of tabs:%d\nnumber of newlines:%d\n", num_blank, num_tab, num_newline);
+    printf("blanks  :   %d\n", num_blank);
+    printf("tabs    :   %d\n", num_tab);
+    printf("newlines:   %d\n", num_newline);
 
     return 0;
 }
