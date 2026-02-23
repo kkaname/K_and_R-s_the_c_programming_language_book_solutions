@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /*
- * Example program in the page 48
  * program that concatenates the string t to the end of string s
  */
 
