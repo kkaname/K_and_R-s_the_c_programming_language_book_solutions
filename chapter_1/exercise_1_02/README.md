@@ -16,13 +16,13 @@ The behavior of unrecognized escape sequences is undefined by the C standard —
 
 ## Build & Run
 
-### Compile
+### Compile:
 
 ```sh
 gcc -o printf_argument printf_argument.c
 ```
 
-### Run
+### Run:
 
 ```sh
 ./printf_argument
