@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+ * Program that counts the number of bits set in an unsigned integer
+ */
+
 int bitcount(unsigned int x) {
     int count = 0;
     while(x) {
