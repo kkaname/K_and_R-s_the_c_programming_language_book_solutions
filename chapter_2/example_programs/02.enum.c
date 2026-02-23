@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /*
- * Example program in the page 39
  * program that demonstrates the use of enum
  */
 
