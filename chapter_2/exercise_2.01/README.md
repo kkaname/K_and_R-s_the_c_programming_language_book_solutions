@@ -17,27 +17,17 @@ This program systematically prints the minimum and maximum values of all fundame
 
 ### Types Covered
 ***Integer Types (via <limits.h>):***
-
-char — signed, unsigned, and platform default
-
-short int — signed and unsigned
-
-int — signed and unsigned
-
-long int — signed and unsigned
-
-long long int — signed and unsigned
-
-
+ - char — signed, unsigned, and platform default
+ - short int — signed and unsigned
+ - int — signed and unsigned
+ - long int — signed and unsigned
+ - long long int — signed and unsigned
 
 
 ***Floating-Point Types (via <float.h>):***
-
-float
-
-double
-
-long double
+ - float
+ - double
+ - long double
 
 
 ### Key Constants Reference
