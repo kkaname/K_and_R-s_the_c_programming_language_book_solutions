@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /*
- * Example program in the page 52
  * program to display number of items
  */
 
