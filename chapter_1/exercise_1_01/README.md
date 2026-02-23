@@ -8,7 +8,12 @@ The program prints `hello, world` to standard output. The exercise also encourag
 
 ## Build & Run
 
+### Compile:
 ```sh
 gcc -o hello_world hello_world.c
+```
+
+### Run:
+```sh
 ./hello_world
 ```
