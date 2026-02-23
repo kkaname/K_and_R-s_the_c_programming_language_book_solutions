@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /*
- * Example program in the page 41
  * program that checks if a year is a leap year
  */
 
