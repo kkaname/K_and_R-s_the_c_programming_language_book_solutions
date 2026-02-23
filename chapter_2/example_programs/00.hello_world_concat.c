@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * Example program in the page 38
+ * Program that prints "Hello, World!" using string concatenation
  */
 
 int main(void) {
