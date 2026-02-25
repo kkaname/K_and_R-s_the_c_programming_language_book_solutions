@@ -24,3 +24,18 @@ int main(void) {
 
     return 0;
 }
+
+/*
+ * ------------------------
+ * Solution to the question:
+ * ------------------------
+ * Empty input i.e., EOF immediately where 0 word is expected. Does it print 0 or garbage?
+ * Only whitespace i.e., spaces, tabs, newlines, nothing else, expecting 0 words. This tests whether whitespace-only input incorrectly triggers a word count.
+ * Single word with no newline at end — "hello" with EOF immediately after. Tests whether the last word is counted without a trailing delimiter.
+ * Multiple spaces between words — "foo    bar". Expected: 2. Tests whether consecutive whitespace inflates the count.
+ * Tabs and newlines as delimiters — not just spaces. Tests whether all three separators work.
+ * Single character words — a b c. Expected: 3.
+ * Very long single word — no whitespace at all. Expected: 1.
+ * Input starting with whitespace —    foo. Expected: 1, not 2. Tests the initial state handling.
+ * Mixed newlines and words — multiline input. Tests \n as a proper delimiter.
+ */
